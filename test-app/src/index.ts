@@ -54,7 +54,7 @@ app.on("activate", () => {
 // code. You can also put them in separate files and import them here.
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const helloWorld = require("native-hello-world");
+const helloWorld = require("@bn3t/native-hello-world");
 console.log(helloWorld());
 
 // We exit straight away so we can test dev build (npm start) in a test

@@ -15,6 +15,6 @@ module.exports = {
     modules: ["node_modules", resolve(__dirname, "src")],
   },
   externals: {
-    "native-hello-world": "commonjs2 native-hello-world",
+    "@bn3t/native-hello-world": "commonjs2 @bn3t/native-hello-world",
   },
 };

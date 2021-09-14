@@ -40,7 +40,7 @@ module.exports = {
       },
     ],
     new ForgeExternalsPlugin({
-      externals: ["native-hello-world"],
+      externals: ["@bn3t/native-hello-world"],
     }),
   ],
 };

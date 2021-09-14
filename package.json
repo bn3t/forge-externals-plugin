@@ -1,21 +1,21 @@
 {
-  "name": "@timfish/forge-externals-plugin",
-  "version": "0.1.2",
-  "description": "",
+  "name": "@bn3t/forge-externals-plugin",
+  "version": "1.0.0",
+  "description": "An electron-forge plugin to copy native dependencies into the packaged app",
   "main": "index.js",
   "scripts": {
     "test": "cd test-app && npm i && npm run start && npm run package"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timfish/forge-externals-plugin.git"
+    "url": "git+https://github.com/bn3t/forge-externals-plugin.git"
   },
-  "author": "Tim Fish <tim@timfish.uk>",
+  "author": "Bernard Niset",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/timfish/forge-externals-plugin/issues"
+    "url": "https://github.com/bn3t/forge-externals-plugin/issues"
   },
-  "homepage": "https://github.com/timfish/forge-externals-plugin#readme",
+  "homepage": "https://github.com/bn3t/forge-externals-plugin#readme",
   "dependencies": {
     "flora-colossus": "1.0.1"
   }

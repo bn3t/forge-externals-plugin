@@ -33,5 +33,5 @@ console.log(
 );
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const helloWorld = require("native-hello-world");
+const helloWorld = require("@bn3t/native-hello-world");
 console.log(helloWorld());

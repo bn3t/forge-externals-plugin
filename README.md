@@ -1,4 +1,4 @@
-# @timfish/forge-externals-plugin
+# @bn3t/forge-externals-plugin
 
 When using Electron with Webpack, the easiest way to support native
 modules is to add them to Webpack `externals` configuration. This tells webpack
@@ -51,7 +51,7 @@ packaged app.
           }
         ],
         [
-          "@timfish/forge-externals-plugin",
+          "@bn3t/forge-externals-plugin",
           {
             "externals": ["native-hello-world"],
             "includeDeps": true

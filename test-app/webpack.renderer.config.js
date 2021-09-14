@@ -15,6 +15,6 @@ module.exports = {
     extensions: [".js", ".ts", ".jsx", ".tsx", ".css"],
   },
   externals: {
-    "native-hello-world": "commonjs2 native-hello-world",
+    "@bn3t/native-hello-world": "commonjs2 @bn3t/native-hello-world",
   },
 };
